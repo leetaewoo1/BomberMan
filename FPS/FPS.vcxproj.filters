@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{3928d5d5-bfa4-40fb-a903-a6f7e0876b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{25ce352d-90b2-41e9-894f-165c5a821cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\object">
+      <UniqueIdentifier>{de19bf00-26e6-4cc6-97b8-7c86cde5be21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Scene">
+      <UniqueIdentifier>{1b14d38f-2b13-4431-bda7-680958a1d2d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Scene\sub">
+      <UniqueIdentifier>{6febdc0a-7a9d-434d-a1f7-608f55ee146f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\object\sub">
+      <UniqueIdentifier>{2d3c3971-1fc0-46e0-81cb-96279b7ab889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\object\sub\item">
+      <UniqueIdentifier>{ee93a472-213d-45a6-a8d7-3e2f27a53328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\object\sub\subCharacter">
+      <UniqueIdentifier>{c984518b-e0f3-4ff3-ae6b-54dea9e60c3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneFactory.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="OverScene.h">
+      <Filter>Scene\Scene\sub</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Scene\Scene\sub</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Scene\Scene\sub</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Game\object\sub</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Game\object\sub</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Game\object\sub</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>Game\object</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObjectFactory.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Game\object\sub\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Game\object\sub\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Game\object\sub\subCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Game\object\sub\subCharacter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FPS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Define.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneFactory.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="OverScene.cpp">
+      <Filter>Scene\Scene\sub</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Scene\Scene\sub</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Scene\Scene\sub</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Game\object\sub\subCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Game\object\sub\subCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Game\object\sub\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Game\object\sub\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Game\object\sub</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Game\object\sub</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Game\object\sub</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>Game\object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObjectFactory.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
